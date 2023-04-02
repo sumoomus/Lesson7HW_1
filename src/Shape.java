@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class Shape {
+public class Shape {
+
+
+    double area() {
+        return 0;
+    }
 }
+
+

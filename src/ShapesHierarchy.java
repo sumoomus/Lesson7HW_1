@@ -4,15 +4,13 @@ public class ShapesHierarchy {
     public static void main(String[] args) {
         Shape[] shapes = new Shape[5];
 
-        //Initialize the array with different shapes
+
         shapes[0] = new Triangle(5, 8);
         shapes[1] = new Rectangle(3, 6);
         shapes[2] = new Circle(4);
         shapes[3] = new Triangle(3, 4);
         shapes[4] = new Rectangle(6, 7);
-
         double totalPerimeter = 0;
-        //Calculate the perimeter of each shape and add it to the totalPerimeter
         for (Shape shape : shapes) {
             if (shape instanceof Triangle) {
                 Triangle triangle = (Triangle) shape;
